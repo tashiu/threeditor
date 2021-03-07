@@ -1,0 +1,22 @@
+{
+  "name": "threeditor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tashi Tobgay Dakpa",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "mime-types": "^2.1.29",
+    "node-sass": "^5.0.0",
+    "three": "^0.126.1"
+  },
+  "scripts": {
+    "build": "parcel build index.html --out-dir dist",
+    "start": "node ./server-src/server-main.js"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.3",
+    "sass": "^1.32.8"
+  }
+}
